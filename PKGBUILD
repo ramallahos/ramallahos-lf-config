@@ -15,4 +15,7 @@ package() {
     cd "$pkgname"
     install -d "${pkgdir}/etc/skel/.config/lf/"
     install -Dm 644 "lfrcrc" "${pkgdir}/etc/skel/.config/lf/lfrc"
+    install -Dm 644 "lf_kitty_clean" "${pkgdir}/etc/skel/.config/lf/lf_kitty_clean"
+    install -Dm 644 "lf_kitty_preview" "${pkgdir}/etc/skel/.config/lf/lf_kitty_preview"
+
 }
